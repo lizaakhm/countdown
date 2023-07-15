@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+*::before,
+*::after,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pangolin', cursive;
+  
+}
+
+body{
+    background-color: #BBE4FB;
+    background-image: url(./assets/snow02.gif);
+    background-repeat: repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+
+
+
+
+ .neww{
+font-size: 48px;
+}
+.countdown{
+    display: flex;
+}
+
+.time{
+    /* background-color: red; */
+    margin: 7px;
+    font-size: 40px;
+}
+
+.one{
+    /* background-color: aqua; */
+    width: 100%;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+p{
+    margin: 7px;
+}
